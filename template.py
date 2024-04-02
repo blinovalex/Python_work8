@@ -73,7 +73,9 @@ while True:
         print(search_user(file, data))
     elif mode == 4:
         # Тут нужно вызвать функцию с аргументами
-        pass
+        data = input("Введите значение которое будем переносить: ")
+        poisk = search_user(file, data)
+        print(poisk)
     elif mode == 5:
         print("До встречи")
         sys.exit()
